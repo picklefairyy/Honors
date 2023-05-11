@@ -1,0 +1,360 @@
+body,html,nav {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9f6;
+    border: none;
+  
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+    padding: .9%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #ebced2;
+    width: relative;
+    text-align: center;
+    font-size: .9em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+
+  }
+
+  li {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+
+    
+  }
+
+  a {
+    text-decoration: none;
+    padding-right: 18px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .active {
+    color: white;
+  }
+
+
+  body, html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+
+  }
+
+  #intpar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 130%;
+    opacity: 0%;
+    animation: fadeIn 2s ease-in;
+    animation-fill-mode: forwards;
+    
+  }
+
+  @keyframes fadeIn {
+
+0% {
+  opacity: 0%;
+}
+
+10%, 50% {
+
+  opacity: 0%
+
+}
+
+100% {
+  opacity: 100%
+}
+
+
+
+    
+  }
+
+  
+
+
+  .block {
+    margin-left: 300px;
+    margin-top: 40px;
+    background-color: #ebced2;
+    color:grey;
+    width: 370px;
+    height: 350px;
+    padding: 50px 50px 50px 70px;
+    position: absolute;
+    z-index: 1;
+    font-weight: 600;
+    
+  }
+
+  #meetmaker {
+    font-family: 'Space Grostek', sans-serif;
+    font-size: 140%;
+    font-weight: lighter;
+    color: #656869;
+    
+  }
+
+  .button {
+    background-color: #ebced2;
+    border: solid black .3px;
+    color: black;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .button:hover {
+    background-color: black;
+    color: #f7f9f6;
+    transition-duration: 2s;
+    border: solid black .3px;
+  }
+
+  .Dad {
+    z-index: -1;
+    margin-left: 700px;
+    margin-right: 100px;
+    margin-top: 150px;
+  }
+
+  /*
+
+  */
+
+  .intro {
+
+    font-family: 'Space Grostek', sans-serif; 
+    background-color: #ebced2;
+    color:grey;
+    width: 700px;
+    height: 320px;
+    padding: 20px 0px 200px 50px;
+    z-index: -2;
+    position: relative;
+    font-size: 170%;   
+    margin-left: 450px;
+    margin-top: 200px;
+   }
+   
+   iframe {
+padding-left: 50px;
+}
+
+  h2 {
+text-align: center;
+font-weight: lighter;
+  }
+  
+.writing {
+  font-family: 'Space Grotesk', sans-serif;
+  display: block;
+  text-align: center;
+  padding-top: 190px;
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: larger;
+}
+
+#paigeprod {
+  animation: revealText 1s ease-in;
+  color: transparent;
+  width: 100%;
+  opacity: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url(Images/Background.jpg);
+  background-repeat: repeat-y;
+  animation-fill-mode: forwards;
+}
+
+.titles {
+  background-color: white;
+  padding: 50px;
+  margin-left: 40%;
+  margin-bottom: 50px;
+  margin-top: -200px;
+  width: 35%;
+  position: absolute;
+}
+.Center{
+  text-align: center;
+  margin-top: 20%;
+}
+
+
+@keyframes revealText {
+
+  0% {
+    background-size: 0%;
+    background-position-x: 0%;
+  }
+ 
+10% {
+  background-size: 10%;
+}
+
+50% {
+  background-size: 60%;
+}
+
+
+100% {
+  background-size: 100%;
+}
+
+}
+
+
+
+.footer {
+  text-align: center;
+  background-color: #ebced2;
+  margin-top: 20%;
+  width: 100%;
+}
+
+.insta {
+  width: 100vw;
+  margin: auto;
+}
+
+.icon {
+  padding-right: 10px;
+  width: 1.5%;
+}
+
+.classic {
+  background-color: #d1d2d0;
+  padding: 50px 50px 50px 50px;
+  max-width: 99%;
+  height: 50%;
+}
+
+.vidpor {
+
+  margin-left: 38%;
+  margin-bottom: 5%;
+}
+
+.videos {
+  font-display: bold;
+  margin-top: 10%;
+  padding: 5px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+@media only screen and (max-width: 960px) {
+  .writing {
+    font-family: 'Space Grotesk', sans-serif;
+    display: block;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: larger;
+  }
+
+  .vidpor {
+
+    margin-left: 25%;
+    margin-bottom: 5%;
+  }
+
+  .classic {
+    background-color: #d1d2d0;
+    padding: 50px 0px 50px 50px;
+    height: 25%;
+    max-width: fit-content;
+  }
+
+  .block {
+    margin-left: 50px;
+    background-color: #ebced2;
+    color:grey;
+    font-size: 80%;
+    font-weight: 800;
+    width: 250px;
+    height: 220px;
+    padding: 50px 40px 50px 50px;
+    position: absolute;
+    z-index: 1;
+  }
+  #meetmaker {
+    font-family: 'Space Grostek', sans-serif;
+    font-size: 100%;
+    font-weight: lighter;
+    color: #656869;
+  }
+  .button {
+    background-color: #ebced2;
+    border: solid black .1px;
+    color: black;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+  .Dad {
+    z-index: -1;
+    margin-left: 370px;
+    width: 45%;
+    margin-top: 75px;
+    padding-top: 70px;
+  }
+  .intro {
+
+    font-family: 'Space Grostek', sans-serif; 
+    background-color: #ebced2;
+    color:grey;
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 200px;
+    height: 320px;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 100px;
+    z-index: -2;
+    position: relative;
+    font-size: 170%;   
+   }
+
+   iframe{
+    margin-left: 40px;
+   }
+   .icon {
+    padding-right: 10px;
+    margin: auto;
+    width: 3%;
+  }
+  .titles {
+    background-color: white;
+    padding: 15px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    margin-top: -130px;
+    width: 40%;
+    position: absolute;
+  }
+
+}
+
